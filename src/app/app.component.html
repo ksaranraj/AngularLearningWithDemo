@@ -1,11 +1,23 @@
-<mat-card>
-  <mat-card-header>
-    <mat-card-title>Angular Learning with Demo</mat-card-title>
-    <mat-card-subtitle>Topics</mat-card-subtitle>
-  </mat-card-header>
-  <mat-card-content>
-    <p>
-      Please select the one of the below below topics
-    </p>
-  </mat-card-content>
-</mat-card>
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>Home</span>
+  </mat-toolbar-row>
+</mat-toolbar>
+<br /><br />
+
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; width: 100%;">
+  <div *ngFor="let item of siteData" style="margin-left: 2%; cursor: pointer; margin-bottom: 2%;">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>{{item.title}}</mat-card-title>
+        <mat-card-subtitle>{{item.placeholder}}</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image src="{{item.imgSrc}}">
+      <mat-card-content>
+        <p>
+          {{item.desc}}
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

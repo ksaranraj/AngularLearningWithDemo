@@ -6,5 +6,55 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AngularLearningWithDemo';
+  siteData = [
+    {
+      title: 'Studs',
+      placeholder: 'stone',
+      imgSrc: '../assets/images/ear_rings/stone/image1.jpg',
+      desc: 'This stud is made up by ......'
+    },
+    {
+      title: 'Studs',
+      placeholder: 'stone',
+      imgSrc: '../assets/images/ear_rings/stone/image1.jpg',
+      desc: 'This stud is made up by ......'
+    },
+    {
+      title: 'Studs',
+      placeholder: 'stone',
+      imgSrc: '../assets/images/ear_rings/stone/image1.jpg',
+      desc: 'This stud is made up by ......'
+    },
+    {
+      title: 'Studs',
+      placeholder: 'stone',
+      imgSrc: '../assets/images/ear_rings/stone/image1.jpg',
+      desc: 'This stud is made up by ......'
+    },
+    {
+      title: 'Studs',
+      placeholder: 'stone',
+      imgSrc: '../assets/images/ear_rings/stone/image1.jpg',
+      desc: 'This stud is made up by ......'
+    },
+    {
+      title: 'Studs',
+      placeholder: 'stone',
+      imgSrc: '../assets/images/ear_rings/stone/image1.jpg',
+      desc: 'This stud is made up by ......'
+    },
+    {
+      title: 'Studs',
+      placeholder: 'stone',
+      imgSrc: '../assets/images/ear_rings/stone/image1.jpg',
+      desc: 'This stud is made up by ......'
+    },
+    {
+      title: 'Studs',
+      placeholder: 'stone',
+      imgSrc: '../assets/images/ear_rings/stone/image1.jpg',
+      desc: 'This stud is made up by ......'
+    }
+  ];
+
 }
