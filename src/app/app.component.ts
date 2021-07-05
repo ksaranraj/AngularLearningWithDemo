@@ -10,7 +10,7 @@ export class AppComponent {
     {
       title: 'Studs',
       placeholder: 'stone',
-      imgSrc: '../assets/images/ear_rings/stone/image1.jpg',
+      imgSrc: '../assets/image1.jpg',
       desc: 'This stud is made up by ......'
     },
     {
