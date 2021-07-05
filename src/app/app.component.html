@@ -6,7 +6,7 @@
 <br /><br />
 
 <div style="display: flex; flex-direction: row; flex-wrap: wrap; width: 100%;">
-  <div *ngFor="let item of siteData" style="margin-left: 2%; cursor: pointer; margin-bottom: 2%;">
+  <div *ngFor="let item of siteData" style="margin-left: 2%; margin-bottom: 2%;">
     <mat-card>
       <mat-card-header>
         <mat-card-title>{{item.title}}</mat-card-title>
@@ -18,6 +18,9 @@
           {{item.desc}}
         </p>
       </mat-card-content>
+      <mat-card-actions>
+        <mat-icon (click)="openWhatsapp()"> phone</mat-icon>
+      </mat-card-actions>
     </mat-card>
   </div>
 </div>
